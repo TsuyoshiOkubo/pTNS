@@ -1,0 +1,15 @@
+hx_min 1.4
+d_hx 0.02
+hx_step 1
+
+D 4
+CHI 16
+
+tau 0.01
+tau_step  1000
+tau_full  0.01
+tau_full_step 0
+Random_amp 0.02
+second_ST  1        #true = 1, false=0
+Read_Initial 0      #true = 1, false=0 
+

@@ -1,0 +1,10 @@
+theta  0.01 # Actual value is theta = theta * pi 
+tau 0.01
+tau_step  1000
+tau_full  0.01
+tau_full_step 0
+Random_amp 0.02
+second_ST  1        #true = 1, false=0
+Initial_AKLT 1      #true = 1, false=0
+Read_Initial 0      #true = 1, false=0 
+

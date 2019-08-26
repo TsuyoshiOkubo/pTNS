@@ -1269,7 +1269,7 @@ def Full_update_bond_horizontal(C1,C2,C3,C4,eT1,eT2,eT3,eT4,eT5,eT6,Tn1,Tn2,op12
         Z = np.tensordot(np.tensordot(Z,LR1_inv,(0,1)),LR2_inv,(0,1));
         
     
-        Environment = np.tensordot(Z,Z.conj(),(0,0)).transpose(1,0,3,2)
+        Environment = np.tensordot(Z,Z.conj(),(0,0))
     
     else:
         Environment = np.tensordot(Z,Z.conj(),(2,2))

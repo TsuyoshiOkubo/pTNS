@@ -165,7 +165,7 @@ def Set_Hamiltonian(hxyz,hp,hz,J,K,direction=0):
         Ham[3,2] += - (1.0 - 1.0j) * factor * hp
     if not (hz ==0.0):
         Ham[0,0] += -hz/3.0
-        Ham[3,3] += +hp/3.0
+        Ham[3,3] += +hz/3.0
 
     return Ham
 
